@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AI Text Summarizer App</title>
+    <link rel="stylesheet" href="stylesheet.css">   
+  </head>
+  <body>
+    <div class="title"><h1>AI Text Summarizer App</h1></div>
+    <p> Welcome to the AI Text Summarizer App! This app leverages the power of Artificial Intelligence APIs to provide concise summaries of long texts. Whether you have a lengthy article, research paper, or any other text document that you want to summarize quickly, our app can assist you. </p>
+    <div class="text">
+    <p> Simply paste your text into the text area below and click the "Submit" button.</p>
+    </div>
+    <div class="container">
+      <div class="text-box">
+        <textarea id="text_to_summarize" name="text_to_summarize" placeholder="Paste in some text to summarize. (Min length is 200 chars. Max length is 100,000 chars.)" maxlength="100000"></textarea>
+        <button id="submit-button" class="submit-button" >
+          <span class="submit-button-text">Summarize</span>
+        </button>
+      </div>
+      <div class="text-box"> 
+      <textarea id="summary" name="summarized_text" placeholder="Summarized text will appear here"> </textarea>
+      </div>
+    </div>
+    <section class="cta-section">
+      <div class="cta-content">
+        <h2>Why Use this Summarizer</h2>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=check" />
+        <ul>
+        <li><p>Accurate: Reliable and credible summary that preserves the original </p></li>
+        <li><p>100% Free: Enjoy unlimited summarization completely Free </p></li>
+        <li><p>Secure: Your data remains untouched; we don't neither store, save nor utilize it in any way </p></li>
+        <li><p>Speed: Powered by AI, our summarizer delivers results within a matter of seconds </p></li>
+        <li><p>Flexible: Set the length of your desired summary for more or less detailed summaries </p></li>
+        </ul>
+          
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
